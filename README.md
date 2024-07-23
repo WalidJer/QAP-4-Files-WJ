@@ -11,11 +11,25 @@ Walid Jerjawi
 ## Date
 July 16, 2024 - July 20, 2024
 
+## Prerequisites
+- Python 3.10.12
+- The program uses several constants defined in the Const.dat file, which must be present in the same directory as the program.
+
 ## Usage
 1. Run the script using Python:
 2. Follow the prompts to enter customer and policy information.
 3. The program will calculate the policy details and display a summary.
 4. Policy information will be saved to `Policy.dat`.
+
+## Important Note
+
+<div style="background-color: #ffffcc; padding: 10px; border: 1px solid #ffeb3b;">
+
+:warning: <strong>Please note:</strong>
+
+All cars insured under a single policy are assumed to have the same coverage options. The calculations are based on this assumption. If different cars require different coverages, separate policies should be created.
+
+</div>
 
 ## File Structure
 - `QAP4.py`: Main Python script
@@ -34,7 +48,7 @@ The program uses `Const.dat` for configuration. This file contains:
 - Monthly payment fee
 
 Ensure this file is present and correctly formatted before running the program.
-
+Python 3.10.12
 ## Features
 - Customer information input
 - Multiple insurance options (liability, glass coverage, loaner car)
