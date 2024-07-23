@@ -23,13 +23,10 @@ July 16, 2024 - July 20, 2024
 
 ## Important Note
 
-<div style="background-color: #ffffcc; padding: 10px; border: 1px solid #ffeb3b;">
+> :warning: **Please note:**
+> 
+> All cars insured under a single policy are assumed to have the same coverage options. The calculations are based on this assumption. If different cars require different coverages, separate policies should be created.
 
-:warning: <strong>Please note:</strong>
-
-All cars insured under a single policy are assumed to have the same coverage options. The calculations are based on this assumption. If different cars require different coverages, separate policies should be created.
-
-</div>
 
 ## File Structure
 - `QAP4.py`: Main Python script
